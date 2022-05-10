@@ -52,6 +52,7 @@ const deleteEvent = () => {
             done.splice(idClicked, 1);
             renderTodoTable();
             deleteEvent();
+            doneEvent();
         });
     });
 }
